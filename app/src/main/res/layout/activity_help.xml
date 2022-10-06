@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <ImageView
+        android:id="@+id/CoAppBc"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coappbc" /><![CDATA[
+
+    14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="367dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/cinzel_decorative_black"
+        android:text="                          Risky card game\n\nRules: The game consist of 52 cards. 'A' is the highest card. The player who gets the highest ranked card wins with one point. The aim with the game is to win with 20 points. \n\nThe player who scores one point can also use the risk player button. Every time when you press the risk player button you have the chance to score five extra points, or lose them to your opponent. If the cards are equal there is a draw. As a last chance, you are able to use the nuke button, which gives you a 15% chance of winning instantly.\n\nInfo: There are two game modes. In the single player mode you can play alone against a (CPU) computer. In the multiplayer mode you can play against another player."
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_back3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_back3"
+        android:layout_width="141dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#99FF2929"
+        android:text="back"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

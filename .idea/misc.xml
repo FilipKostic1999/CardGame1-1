@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_help.xml" value="0.27810211181640626" />
+        <entry key="app/src/main/res/layout/activity_ketren.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3016470646512681" />
+        <entry key="app/src/main/res/layout/activity_multiplayer.xml" value="0.2650100708007813" />
+        <entry key="app/src/main/res/layout/activity_multiplayer2.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.3199462890625001" />
+        <entry key="app/src/main/res/layout/activity_singelp.xml" value="0.26758128978587964" />
+        <entry key="app/src/main/res/layout/activity_singleplayer.xml" value="0.2402319645536119" />
+        <entry key="app/src/main/res/layout/activity_stats.xml" value="0.22615384615384615" />
+        <entry key="app/src/main/res/layout/activity_win.xml" value="0.31328277587890624" />
+        <entry key="app/src/main/res/layout/activity_win2.xml" value="0.24522222988847378" />
+        <entry key="app/src/main/res/layout/activity_win3.xml" value="0.24375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

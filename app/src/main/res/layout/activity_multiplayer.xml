@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resultTextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MultiplayerActivity">
+
+    <ImageView
+        android:id="@+id/cover1"
+        android:layout_width="180dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:src="@drawable/bc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cover2"
+        android:layout_width="180dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:src="@drawable/bc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/points_Pl1"
+        android:layout_width="196.5dp"
+        android:layout_height="47dp"
+        android:background="#25FFFFFF"
+        android:gravity="center"
+        android:text="pointsPl1: 0"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/points_Pl2"
+        android:layout_width="196.5dp"
+        android:layout_height="47dp"
+        android:background="#27FFFFFF"
+        android:gravity="center"
+        android:text="pointsPl2: 0"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/draw1"
+        android:layout_width="198dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="#25FFFFFF"
+        android:fontFamily="@font/cinzel_decorative"
+        android:gravity="center"
+        android:text="Draw!"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cover2" />
+
+    <Button
+        android:id="@+id/riskPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:text="riskpl1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cover1" />
+
+    <Button
+        android:id="@+id/riskPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="20dp"
+        android:text="riskpl2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cover2" />
+
+    <ImageView
+        android:id="@+id/warning1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/riskPlayer1"
+        app:layout_constraintTop_toBottomOf="@+id/draw1"
+        app:layout_constraintVertical_bias="0.323"
+        app:srcCompat="@drawable/boll" />
+
+    <ImageView
+        android:id="@+id/warning2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/riskPlayer2"
+        app:layout_constraintTop_toBottomOf="@+id/draw1"
+        app:layout_constraintVertical_bias="0.323"
+        app:srcCompat="@drawable/boll" />
+
+    <ImageView
+        android:id="@+id/ketrenBomb1"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riskPlayer1"
+        app:srcCompat="@drawable/atombomb" />
+
+    <ImageView
+        android:id="@+id/ketrenBomb2"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riskPlayer2"
+        app:srcCompat="@drawable/atombomb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
