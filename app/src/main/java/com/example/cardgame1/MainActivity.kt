@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
+//  ydytfdyf
     fun openNextActivity1(view: View) {
         val intent = Intent(this, SingelpActivity::class.java)
         startActivity(intent)
